@@ -3,6 +3,9 @@
 	<title>Enkrip Pswrd MD5</title>
 </head>
 <body>
+	<div>
+		text
+	</div>
 	<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 		Password :
 		<input type="text" name="enkrip">
@@ -10,6 +13,7 @@
 		<input type="submit" name="send" id="send" value="Send!">
 	</form>
 </body>
+
 </html>
 <?php
 if (isset($_REQUEST['send'])) {
